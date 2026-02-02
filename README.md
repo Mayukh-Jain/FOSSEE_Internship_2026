@@ -100,6 +100,13 @@ The repository is organized into three main components:
 
 This section outlines the steps to set up the development environment and deploy the applications. A live version of the web app is hosted on Vercel, with the backend on Hugging Face Spaces.
 
+### Accessing the Deployed Applications
+
+- **Web Application (Live):** You can access the live web application here: `https://fossee-internship-2026-ofh6o3wi5-mayukhs-projects-769c77b4.vercel.app/`
+  - **Login Credentials:** `username: admin`, `password: admin`
+  - Use `username: admin`, `password: admin` to log in.
+- **Desktop Application (.exe):** After running PyInstaller (see "Desktop Frontend Setup" below), the standalone executable `main.exe` will be located in the `frontend_desktop/dist/` folder. This executable also connects to the live backend.
+
 ### Prerequisites
 - Python 3.9+ & `pip`
 - Node.js & `npm`
