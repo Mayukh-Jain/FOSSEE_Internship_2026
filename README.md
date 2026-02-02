@@ -24,22 +24,22 @@ Chem-Vis is a comprehensive, full-stack application designed for uploading, anal
     <td align="center"><strong>Web App: Main Dashboard</strong></td>
   </tr>
   <tr>
-    <td><img src="path/to/your/screenshot1.png" alt="Web App Login Page" width="400"/></td>
-    <td><img src="path/to/your/screenshot2.png" alt="Web App Dashboard" width="400"/></td>
+    <td><img src="screenshots/login.png" alt="Web App Login Page" /></td>
+    <td><img src="screenshots/dashboard.png" alt="Web App Dashboard" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>Web App: Data & Chart View</strong></td>
+    <td align="center"><strong>Desktop App: Login Window</strong></td>
     <td align="center"><strong>Desktop App: Main Window</strong></td>
   </tr>
   <tr>
-    <td><img src="path/to/your/screenshot3.png" alt="Web App Data View" width="400"/></td>
-    <td><img src="path/to/your/screenshot4.png" alt="Desktop App Main Window" width="400"/></td>
+    <td><img src="screenshots/dlogin.png" alt="Web App Data View" /></td>
+    <td><img src="screenshots/ddashboard.png" alt="Desktop App Main Window" /></td>
   </tr>
    <tr>
     <td align="center" colspan="2"><strong>Generated PDF Report</strong></td>
   </tr>
     <tr>
-    <td colspan="2" align="center"><img src="path/to/your/screenshot5.png" alt="Generated PDF Report" width="600"/></td>
+    <td colspan="2" align="center"><img src="screenshots/pdf.png" alt="Generated PDF Report" /></td>
   </tr>
 </table>
 
