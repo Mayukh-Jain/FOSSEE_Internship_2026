@@ -1,6 +1,8 @@
 # Chem-Vis: Full-Stack Data Visualization Platform
 
-Chem-Vis is a comprehensive, full-stack application designed for uploading, analyzing, and visualizing chemical equipment data. It features a robust backend API, a dynamic web interface, and a native desktop client, demonstrating a complete end-to-end software development and deployment workflow.
+Chem-Vis is a dual-interface data intelligence platform designed to bridge the gap between cloud-based analytics and local desktop utility for chemical equipment datasets. Developed as a screening task for the FOSSEE 2026 Internship, it demonstrates a modern decoupled architecture.
+
+The platform solves the common researcher dilemma: needing the accessibility of a web dashboard for quick data inspection, while requiring the offline capability and reporting power of a native desktop application.
 
 ---
 
@@ -13,6 +15,9 @@ Chem-Vis is a comprehensive, full-stack application designed for uploading, anal
 - **Native Desktop Client:** A standalone desktop application offering a native user experience with the same core functionalities.
 - **PDF Report Generation:** The desktop client can generate and export detailed PDF reports containing data summaries and visualizations for offline analysis and sharing.
 - **Cloud-Native Deployment:** The entire platform is deployed on modern, scalable, and cost-effective cloud infrastructure.
+- **Unified API Consumption:** Highlight that both the React.js web app and the PyQt5 desktop client consume the same Gunicorn-powered Django API, ensuring data consistency across platforms.
+
+- **Hybrid Workflow:** Users can upload a CSV on the go via the web and later generate professional PDF reports via the desktop client using the same account credentials.
 
 ---
 
@@ -100,12 +105,22 @@ The repository is organized into three main components:
 
 This section outlines the steps to set up the development environment and deploy the applications. A live version of the web app is hosted on Vercel, with the backend on Hugging Face Spaces.
 
-### Accessing the Deployed Applications
+### 🚀 Access & Demo
 
-- **Web Application (Live):** You can access the live web application here: `https://fossee-internship-2026-ofh6o3wi5-mayukhs-projects-769c77b4.vercel.app/`
-  - **Login Credentials:** `username: admin`, `password: admin`
-  - Use `username: admin`, `password: admin` to log in.
-- **Desktop Application (.exe):** After running PyInstaller (see "Desktop Frontend Setup" below), the standalone executable `main.exe` will be located in the `frontend_desktop/dist/` folder. This executable also connects to the live backend.
+The application is fully deployed and ready for review. You can test the synchronization between the web and desktop interfaces using the live backend.
+
+> [!IMPORTANT]
+> **Demo Credentials**
+> - **Username:** `admin`
+> - **Password:** `admin`
+
+#### 🌐 Web Application
+**URL:** [Live Demo on Vercel](https://fossee-internship-2026-ofh6o3wi5-mayukhs-projects-769c77b4.vercel.app/)
+
+#### 🖥️ Desktop Application
+1. Navigate to the `frontend_desktop/dist/` folder.
+2. Run `main.exe`.
+3. Use the credentials above to log in and sync with the cloud database.
 
 ### Prerequisites
 - Python 3.9+ & `pip`
