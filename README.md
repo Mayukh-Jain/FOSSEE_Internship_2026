@@ -127,6 +127,7 @@ The application is fully deployed and ready for review. You can test the synchro
 - Node.js & `npm`
 - Git
 
+
 ### Backend Deployment (Hugging Face)
 1.  **Database:** Create a PostgreSQL database on [Supabase](https://supabase.com).
 2.  **Hugging Face Space:** Create a new "Docker" Space on Hugging Face.
